@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+}
+
+.gif_out {
+  width: 30%;
+  border-radius: 8px;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+  gap: 4px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.save {
+  width: 30%;
+  border-radius: 8px;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+  gap: 4px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.mp3 {
+  width: 30%;
+  border-radius: 8px;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+  gap: 4px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.gif_out:hover, .gif_out:focus, .gif_out:active {
+  background: #fff !important;
+  border: none !important;
+}
+
+.p {
+  color: #383838;
+  font-size: 16px;
+  font-weight: 700;
+}

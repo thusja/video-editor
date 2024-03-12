@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  align-items: center;
+  border-bottom: 1px solid #454545;
+}
+
+.logo {
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+.nav {
+  display: flex;
+  padding-top: 27px;
+  padding-right: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  color: #000;
+}
+
+.li {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 20px;
+  height: 22px;
+}
+
+.li:hover {
+  color: #000;
+  border-bottom: solid 3px aquamarine;
+}
