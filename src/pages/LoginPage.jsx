@@ -4,7 +4,7 @@ import Header from "./layout/Header";
 import { Outlet } from "react-router-dom";
 import Footer from "./layout/Footer";
 
-const Login = () => {
+const LoginPage = () => {
   return (
     <>
       <Header />
@@ -17,4 +17,4 @@ const Login = () => {
   )
 };
 
-export default Login;
+export default LoginPage;

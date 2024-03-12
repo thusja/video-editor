@@ -4,7 +4,7 @@ import Header from "./layout/Header";
 import { Outlet } from "react-router-dom";
 import Footer from "./layout/Footer";
 
-const Enquiry = () => {
+const EnquiryPage = () => {
   return (
     <> 
       <Header />
@@ -17,4 +17,4 @@ const Enquiry = () => {
   )
 };
 
-export default Enquiry;
+export default EnquiryPage;

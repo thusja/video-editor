@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import MainPage from './pages/MainPage';
-import Login from 'pages/Login';
-import Enquiry from 'pages/Enquiry';
+import Login from 'pages/LoginPage';
+import Enquiry from 'pages/EnquiryPage';
 
 function App() {
   return (
